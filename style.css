@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    perspective: 1000px;
+    display: flex;
+    background-color: blue;
+    gap: 1rem;
+}
+
+.div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% calc(100% - 90%);
+    height: 100%;
+}
+
+.a1 {
+    width: 10%;
+    animation: a1anim 5s;
+    transition: 5s all;
+}
+
+@keyframes a1anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a2 {
+    width: 10%;
+    animation: a2anim 6s;
+    transition: 5s all;
+}
+
+@keyframes a2anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a3 {
+    width: 10%;
+    animation: a3anim 7s;
+    transition: 5s all;
+}
+
+@keyframes a3anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a4 {
+    width: 10%;
+    animation: a4anim 8s;
+    transition: 5s all;
+}
+
+@keyframes a4anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a5 {
+    width: 10%;
+    animation: a5anim 9s;
+    transition: 5s all;
+}
+
+@keyframes a5anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+
+}
+
+.a6 {
+    width: 10%;
+    animation: a6anim 10s;
+    transition: 5s all;
+}
+
+@keyframes a6anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a7 {
+    width: 10%;
+    animation: a7anim 11s;
+    transition: 5s all;
+}
+
+@keyframes a7anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a8 {
+    width: 10%;
+    animation: a8anim 12s;
+    transition: 5s all;
+}
+
+@keyframes a8anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a9 {
+    width: 10%;
+    animation: a9anim 13s;
+    transition: 5s all;
+}
+
+@keyframes a9anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+    }
+}
+
+.a10 {
+    animation: a10anim 14s;
+    transition: 5s all;
+}
+
+@keyframes a10anim {
+
+    0%,
+    100% {
+        transform-origin: bottom;
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    100% {
+        transform: rotateX(50deg);
+
+    }
+}
